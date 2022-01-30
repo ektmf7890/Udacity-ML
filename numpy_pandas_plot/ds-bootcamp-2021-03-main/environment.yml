@@ -1,0 +1,17 @@
+name: INE-bootcamp
+channels:
+    - conda-forge
+dependencies:
+    - python=3.9
+    - pip
+    - numpy
+    - pandas
+    - matplotlib
+    - seaborn
+    - requests
+    - scikit-learn
+    - tabulate
+    - xlrd
+    - jupyter
+    - pip:
+      - pyarrow
